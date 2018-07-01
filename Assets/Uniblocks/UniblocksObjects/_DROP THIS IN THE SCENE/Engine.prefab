@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 11400002}
+  - component: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: Engine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cddbf0dd72d8c24f96e9fd72b97a39a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lWorldName: TestWorld2
+  lBlocksPath: Assets/Uniblocks/UniblocksObjects/Blocks/
+  lBlocks:
+  - {fileID: 100000, guid: 78cf3c47f1fe3c843ab15428865d22de, type: 2}
+  - {fileID: 100000, guid: 40e9d562a4fb5344b8e1eb94ea3d0693, type: 2}
+  - {fileID: 100000, guid: 7f27473d602ccd34892419f143881540, type: 2}
+  - {fileID: 100000, guid: 5e45db9461cadd748ab78a07829188da, type: 2}
+  - {fileID: 100000, guid: 5dfc828fb31621947a4a7108862b8124, type: 2}
+  - {fileID: 100000, guid: db7448f4969b0d9448c4a3184f7fb61b, type: 2}
+  - {fileID: 100000, guid: 3552d4e8dcd4ffd46a23817e61abb8e2, type: 2}
+  - {fileID: 192194, guid: 9d3a5cd04bf1e2b43a0af40b3d3dc173, type: 2}
+  - {fileID: 177576, guid: 9a406628bcc1c99489858f2bc1de7ec2, type: 2}
+  - {fileID: 100000, guid: 336f82d2a93c2fe40bc2e42dcf08d16a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 100000, guid: a648627e7c173994d86db058c611c422, type: 2}
+  lHeightRange: 3
+  lChunkSpawnDistance: 8
+  lChunkSideLength: 16
+  lChunkDespawnDistance: 3
+  lTextureUnit: 0.125
+  lTexturePadding: 0
+  lTargetFPS: 60
+  lMaxChunkSaves: 50
+  lMaxChunkDataRequests: 0
+  lShowBorderFaces: 0
+  lGenerateColliders: 1
+  lSendCameraLookEvents: 1
+  lSendCursorEvents: 0
+  lEnableMultiplayer: 0
+  lMultiplayerTrackPosition: 0
+  lSaveVoxelData: 1
+  lGenerateMeshes: 1
+  lChunkTimeout: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e24c327a975823b4d96fa1a063587951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChunkObject: {fileID: 100000, guid: 30414e201314a18499a931049b1bf370, type: 2}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3c46202b3df774d9cab7f1fe536579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniblocksNetworkPrefab: {fileID: 100000, guid: 5d9de697ad842fd40a0f83123a5922ed,
+    type: 2}
+  ConnectToServerOnAwake: 0
+  StartServerOnAwake: 0
+  ServerIP: 127.0.0.1
+  ServerPassword: 
+  Port: 1337
+  MaxConnections: 100
+  UseNat: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

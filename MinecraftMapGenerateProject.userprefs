@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BlockManager.cs">
+    <Files>
+      <File FileName="Assets\Uniblocks\UniblocksScripts\Core\Chunk.cs" Line="1" Column="1" />
+      <File FileName="Assets\Uniblocks\UniblocksScripts\Core\Engine.cs" Line="1" Column="1" />
+      <File FileName="Assets\Uniblocks\UniblocksScripts\Examples\DefaultVoxelEvents.cs" Line="1" Column="1" />
+      <File FileName="Assets\Uniblocks\UniblocksScripts\Examples\VoxelGrass.cs" Line="1" Column="1" />
+      <File FileName="Assets\Uniblocks\UniblocksScripts\Core\VoxelEvents.cs" Line="1" Column="1" />
+      <File FileName="Assets\Uniblocks\UniblocksScripts\PlayerInteraction\CameraEventsSender.cs" Line="1" Column="1" />
+      <File FileName="Assets\Uniblocks\UniblocksScripts\Core\VoxelInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets\Uniblocks\UniblocksScripts\Core\Voxel.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MapManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BlockManager.cs" Line="48" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
